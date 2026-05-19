@@ -1,0 +1,290 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}/*configuração padrão*/
+
+body{
+    background-color: #090032;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}/*configuração para o body ou seja para o documento todo*/
+
+header{
+    background-color: #2A2059;
+    display: flex;
+    border-radius: 20px;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 23px;
+    
+}/*configuração para o header*/
+
+nav{
+    text-decoration: underline;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    
+}/*configuração para o nav*/
+
+a{
+    margin: 10px;
+    font-size: 20px;
+}/*configuração para o link no nav*/
+
+.cardinicio{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 15px;
+    width: 1060px;
+    height: 380px;
+    margin-top: 60px;
+    margin-left: 150px;
+    background-color: #1A1046;
+    font-size: 28px;
+    
+}/*configuração para o primeiro card do portfólio*/
+
+#textoinicio{
+    display: flex;
+    flex-direction: column;
+}/*configuração para texto do primeiro card*/
+
+#imagemini{
+    display: flex;
+    justify-content: right;
+    
+}/*configuração para posicionar a imagem*/
+
+#imagemini img{
+    display: flex;
+    justify-content: flex-end;
+    background-color: #2A2059;
+    padding: 30px;
+    width: 270px;
+    height: 270px;
+    border-radius: 50%;
+    object-fit: cover;
+    
+}/*configuração para a imagem*/
+
+.figuras{
+    display: flex;
+    justify-content: space-between;
+}/*configuração para as figuras de divisão*/
+
+.figuras img{
+    height: 225px;
+    width: 125px;
+}/*configuração das figuras de divisão*/
+
+#nuvem img{
+    height: 225px;
+    width: 155px;
+}/*configuração para a figura nuvem*/
+
+#titulos{
+    text-align: center;
+    font-size: 40px;
+}/*configuração para os titulos do portfólios*/
+
+.sobre{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    padding: 20px;
+    border-radius: 70px;
+    width: 1060px;
+    height: 300px;
+    margin-top: 40px;
+    margin-left: 150px;
+    background-color: #1A1046;
+    font-size: 28px;
+}/*configuração para o card sobre*/
+
+.habilidades{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    padding: 20px;
+    border-radius: 70px;
+    width: 1060px;
+    height: 300px;
+    margin-top: 40px;
+    margin-left: 150px;
+    background-color: #1A1046;
+    font-size: 28px;
+}/*configuração para o card habilidades*/
+
+.imagemhabilidades{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    padding: 20px;
+    border-radius: 70px;
+    width: 1060px;
+    height: 300px;
+    margin-top: 40px;
+    margin-left: 150px;
+    background-color: #1A1046;
+    font-size: 28px;
+}/*configuração para a imagem em habilidades*/
+
+#programas img{
+    width: 380px;
+    height: 250px; 
+}/*configuração para o card de programas*/
+
+.imagemhabilidades img{
+    width: 200px;
+    height: 250px;
+    justify-content: space-evenly; 
+}/*configuração para a imagem em habilidades*/
+
+.soft{
+    display: inline-block;
+    justify-content: space-between;
+    text-align: center;
+    padding: 20px;
+    border-radius: 70px;
+    width: 540px;
+    height: 300px;
+    margin-top: 40px;
+    margin-left: 150px;
+    background-color: #1A1046;
+    font-size: 28px;
+}/*configuração para o card de soft skills*/
+
+.hard{
+    display: inline-block;
+    justify-content: space-between;
+    text-align: center;
+    padding: 20px;
+    border-radius: 70px;
+    width: 540px;
+    height: 300px;
+    margin-top: 40px;
+    background-color: #1A1046;
+    font-size: 28px;
+}/*configuração para o card de hard skills*/
+
+.projetos{
+    display: inline-flex;
+    justify-content: space-between;
+    gap: 10px;
+    text-align: center;
+}/*configuração para o card de projetos*/
+
+#dupla{
+    padding: 20px;
+    border-radius: 70px;
+    width: 400px;
+    height: 300px;
+    margin-top: 40px;
+    margin-left: 70px;
+    background-color: #1A1046;
+    font-size: 28px;
+}/*configuração para o card de projeto em dupla*/
+
+#pre{
+    padding: 20px;
+    border-radius: 70px;
+    width: 400px;
+    height: 300px;
+    margin-top: 40px;
+    background-color: #1A1046;
+    font-size: 28px;
+}/*configuração para o card de projeto pré tcc*/
+
+#tcc{
+    padding: 20px;
+    border-radius: 70px;
+    width: 400px;
+    height: 300px;
+    margin-top: 40px;
+    background-color: #1A1046;
+    font-size: 28px;
+}/*configuração para o card de projeto TCC*/
+
+#links{
+    color: white;
+}/*configuração para os links dos projetos*/
+
+.contato{
+    display: inline-flex;
+    justify-content: space-between;
+    gap: 10px;
+}/*configuração para o card de contato*/
+
+.linkedin{
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    border-radius: 70px;
+    width: 400px;
+    height: 350px;
+    margin-top: 40px;
+    margin-left: 70px;
+    background-color: #1A1046;
+    font-size: 28px;
+
+}/*configuração para o card do linkedin*/
+
+.linkedin img{
+    width: 200px;
+}/*configuração para a imagem do card do linkedin*/
+
+.email{
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    border-radius: 70px;
+    width: 400px;
+    height: 350px;
+    margin-top: 40px;
+    background-color: #1A1046;
+    font-size: 28px;
+}/*configuração para o card de email*/
+
+.email img{
+    width: 200px;
+}/*configuração para a imagem do card de email*/
+
+.git{
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    border-radius: 70px;
+    width: 400px;
+    height: 350px;
+    margin-top: 40px;
+    background-color: #1A1046;
+    font-size: 28px;
+}/*configuração para o card do git*/
+
+.git img{
+    width: 200px;
+}/*configuração para a imagem do card do git*/
+
+.telefone{
+    display: inline-flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    text-align: center;
+    margin-left: 500px;
+    font-size: 25px;
+
+}/*configuração para o card de telefone*/
+
+.telefone img{
+    width: 100px;
+    
+}/*configuração para a imagem do card de telefone*/
