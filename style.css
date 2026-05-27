@@ -18,7 +18,8 @@ header{
     padding-top: 20px;
     padding-bottom: 20px;
     font-size: 23px;
-    
+    transform: translateY(-10px);
+    box-shadow: 0 0 20px white;
 }/*configuração para o header*/
 
 nav{
@@ -46,6 +47,8 @@ a{
     margin-left: 150px;
     background-color: #1A1046;
     font-size: 28px;
+    transform: translateY(-10px);
+    box-shadow: 0 0 20px white;
     
 }/*configuração para o primeiro card do portfólio*/
 
@@ -69,6 +72,8 @@ a{
     height: 270px;
     border-radius: 50%;
     object-fit: cover;
+    transform: translateY(-10px);
+    box-shadow: 0 0 20px white;
     
 }/*configuração para a imagem*/
 
@@ -105,6 +110,8 @@ a{
     margin-left: 150px;
     background-color: #1A1046;
     font-size: 28px;
+    transform: translateY(-10px);
+    box-shadow: 0 0 20px white;
 }/*configuração para o card sobre*/
 
 .habilidades{
@@ -120,6 +127,8 @@ a{
     margin-left: 150px;
     background-color: #1A1046;
     font-size: 28px;
+    transform: translateY(-10px);
+    box-shadow: 0 0 20px white;
 }/*configuração para o card habilidades*/
 
 .imagemhabilidades{
@@ -135,6 +144,8 @@ a{
     margin-left: 150px;
     background-color: #1A1046;
     font-size: 28px;
+    transform: translateY(-10px);
+    box-shadow: 0 0 20px white;
 }/*configuração para a imagem em habilidades*/
 
 #programas img{
@@ -146,6 +157,7 @@ a{
     width: 200px;
     height: 250px;
     justify-content: space-evenly; 
+    
 }/*configuração para a imagem em habilidades*/
 
 .soft{
@@ -160,6 +172,8 @@ a{
     margin-left: 150px;
     background-color: #1A1046;
     font-size: 28px;
+    transform: translateY(-10px);
+    box-shadow: 0 0 20px white;
 }/*configuração para o card de soft skills*/
 
 .hard{
@@ -173,13 +187,15 @@ a{
     margin-top: 40px;
     background-color: #1A1046;
     font-size: 28px;
+    transform: translateY(-10px);
+    box-shadow: 0 0 20px white;
 }/*configuração para o card de hard skills*/
 
 .projetos{
     display: inline-flex;
     justify-content: space-between;
     gap: 10px;
-    text-align: center;
+    text-align: center; 
 }/*configuração para o card de projetos*/
 
 #dupla{
@@ -191,6 +207,8 @@ a{
     margin-left: 70px;
     background-color: #1A1046;
     font-size: 28px;
+    transform: translateY(-10px);
+    box-shadow: 0 0 20px white;
 }/*configuração para o card de projeto em dupla*/
 
 #pre{
@@ -201,6 +219,8 @@ a{
     margin-top: 40px;
     background-color: #1A1046;
     font-size: 28px;
+    transform: translateY(-10px);
+    box-shadow: 0 0 20px white;
 }/*configuração para o card de projeto pré tcc*/
 
 #tcc{
@@ -211,6 +231,8 @@ a{
     margin-top: 40px;
     background-color: #1A1046;
     font-size: 28px;
+    transform: translateY(-10px);
+    box-shadow: 0 0 20px white;
 }/*configuração para o card de projeto TCC*/
 
 #links{
@@ -234,6 +256,8 @@ a{
     margin-left: 70px;
     background-color: #1A1046;
     font-size: 28px;
+    transform: translateY(-10px);
+    box-shadow: 0 0 20px white;
 
 }/*configuração para o card do linkedin*/
 
@@ -251,6 +275,9 @@ a{
     margin-top: 40px;
     background-color: #1A1046;
     font-size: 28px;
+    transform: translateY(-10px);
+    box-shadow: 0 0 20px white;
+
 }/*configuração para o card de email*/
 
 .email img{
@@ -267,6 +294,9 @@ a{
     margin-top: 40px;
     background-color: #1A1046;
     font-size: 28px;
+    transform: translateY(-10px);
+    box-shadow: 0 0 20px white;
+    
 }/*configuração para o card do git*/
 
 .git img{
